@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BuilderSettings>
+  <Elements>
+    <c2c>http://127.0.0.1</c2c>
+    <gate>/cp-102/gate.php</gate>
+    <delay>5</delay>
+    <regkey>svchost</regkey>
+    <iconpath />
+    <useicon>False</useicon>
+    <bsod>False</bsod>
+    <hideprocess>False</hideprocess>
+  </Elements>
+</BuilderSettings>

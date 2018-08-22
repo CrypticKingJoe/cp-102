@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 { 
+	font-family: Consolas,monaco,monospace; 
+}
+h2{
+	font-family: Consolas,monaco,monospace; 
+	font-size:22px;
+}
+p,ul{
+    font-family:courier;
+	white-space:pre;
+}
+li{
+	margin-left:-20px;
+	margin-bottom:-10px;
+}
+a{
+	color:blue;
+	text-decoration: underline;
+}
+a:hover{
+	text-decoration: none;
+}
+</style>
+<title>cp-102 setup guide</title>
+</head>
+<body>
+
+<h1>-cp-102 Setup Guide-</h1>
+
+<p>
+Welcome on the Setup guide of cp-102. 
+In order to setup the c&c of this software you need to
+follow the steps below.
+</p><br>
+<h2>-Pre-Deployment</h2><p>First of all you need a web server.
+I suggest you to download <a href="https://www.apachefriends.org/it/download.html">XAMPP 5</a> for Windows or using pre installed
+Apache on Linux. I this paper we 'll see the installation under
+Windows 10, but the installation under Linux is pretty similar.
+
+This software has been developed under PHP5 so using it under higher 
+version it could cause troubles.
+</p><br>
+<h2>-Deployment</h2><p>
+Once Xampp has been installed browse in its folder that should
+be located under '<i>c:\Xampp\htdocs\</i>' and create a new
+directory, you can name it as you want but i suggest you
+'<i>cp-102</i>'. Now drag and drop there all files you downloaded.
+
+Now running XAMPP you need to start : <b>Apache</b> and <b>MySQL</b> services
+from the main menu. You should see that the status near the names has turned
+out green, this means they're running.
+
+Open a web browser, the top should be Firefox. And surf to the following address
+or just click on it <a href="http://127.0.0.1/cp-102/setup.php">http://127.0.0.1/cp-102/setup.php</a>.
+Remember that if you named the installation folder in another way just replace
+the name in the link '<i>cp-102</i>' with your directory name.
+
+And you should see an installation page that asks for different things.
+</p><br>
+<h2>-Installation</h2><p>
+Under '<i>MySQL Server</i>' tab you need to insert the credentials to access
+to the MySQL service but usually they're : <br><br>
+* Host : 127.0.0.1
+* User : root
+* Pass : <i>empty</i>
+<br><br>
+Now in the Database input you can enter whatever name you want but as always
+I suggest you to enter : '<i>cp102</i>'.
+
+After that you have to choose a username and a strong password for the C&C root user,
+this is your free choice.
+
+Once done everything make sure that is all correct and click '<i>Install</i>'.
+If everything goes fine you should see a dialog above that shows every step in <font color="green">green</font>.
+If not just check the error and try to fix it but if you did follow this
+paper correctly you should be good.
+
+Perfect! Now the C&C is ready on: <a href="http://127.0.0.1/cp-102/login.php">http://127.0.0.1/cp-102/login.php</a> And
+as always replace the folder name if you changed it to point to the correct page.
+
+Just insert the credentials you have inserted previuosly and there you go.
+</p><br>
+<h2>-Builder</h2><p>
+In the installation folder of cp-102 there's a sub folder name <i>Builder</i>
+and inside there's an .EXE file. Open in and here you have to insert your
+gate location:
+* Panel URL: your hostname for the c&c, for example <i>http://127.0.0.1</i>
+* Path to gate file : the folder where you placed the gate.php file that must be 
+int the main installation directory.
+*Request Interval : it's the delay between each update request, do not select more
+than 10 seconds or the client will go offline each 10 seconds on the web client.
+*Tag : this is just a note to identify your bot, remember change it on every build.
+*Mutex : this is to avoid multiple stub instances on the same machine.
+
+*Registry Key Name : Startup key name, use something simple such as <i>svchost</i> or <i>explorer</i>.
+*Startup : this add the client to the startup folder.
+*Change Icon : check the checkbox and select a icon file for your stub.
+*Bsod : this is process protection, the stub process gets flagged by protected by 
+administrator, the user must kill the process only via admin cmd.
+*Hide Process : this is a rootkit like feature but works only on 32 bit systems.
+
+Once you done everything just click <b>Build</b> in the <i>Compile</i> tab
+and save your malware.
+
+In the end if you run that you'll se it in you C&C bot list page and from there
+you can administrate your botnet as you want, using the built in features:
+
+*Download & Execute
+*Visit WebPages (Hidden or not)
+*Session Management
+
+I leave you telling that you can share your access with whoever you want
+under the <i>Users</i> tab you can create new users with different permissions
+in order to administrate even your friends actions.
+
+</p><br>
+<h2>-Disclaimer and last advises</h2><p>
+Remember that everything you make with this software is your own business, 
+illegal, legal or whatever, we creators don't take any kind of responsability
+of your actions or whoever except us. This code is you now. You can do what
+you want except selling this or passing this as your or to our people that
+didn't buy this product from us.
+
+Once selled we provide support only for system bugs and not for installations
+or setup or other issues, this system as been tested and it works 100% if you
+can't setup it just google it and try to solve the problem.
+
+Of course if you have requests, improvements or bugs feel free to
+contact us and telling us what you need and we'll help you as we can.
+</p>
+
+
+
+
+
+</body>
+</html>
