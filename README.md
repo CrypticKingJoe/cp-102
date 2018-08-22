@@ -1,5 +1,4 @@
 # cp-102
-HTTP Botnet 
 
 Here's a simple HTTP botnet, server side written in PHP, client side written in VB.net.
 Here are some simple features :
@@ -14,7 +13,7 @@ The client sources will be release in future if this botnet will be used.
 
 For the installation just check the folder 'doc' and you'll find the instructions.
 
-# Only for study
+## Only for study
 Of course these sources are only for study and to demostrate how the protocol HTTP can be used to create a cluster of remote controlled machines. We don't take any kind of responsability by the use of other users in any way.
 
 You wrong, your troubles.
